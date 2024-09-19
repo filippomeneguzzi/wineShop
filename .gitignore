@@ -1,0 +1,11 @@
+#ESCLUDIAMO IL FILE .env
+.env
+
+# Escludi directory di dipendenze
+/vendor/
+
+# Escludi file di log
+*.log
+
+# Escludi i file delle cache
+/cache/

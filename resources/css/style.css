@@ -1,0 +1,87 @@
+@import url(nav.css);
+@import url(header.css);
+@import url(register.css);
+@import url(login.css);
+@import url(footer.css);
+@import url(adminDashboard.css);
+@import url(cart.css);
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-w:#fcefb7;
+    --red: #871928;
+    --wh: #fdf7e1;
+}
+
+h1, h2, h3, h4{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+a,p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.marginNav{
+    margin-top: 15vh;
+}
+.BottomNav{
+    display: flex;
+    height: auto;
+}
+
+.formCreateProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.formCreateProduct form{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    background-color: #EFF0F3;
+    height: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.formCreateProduct>form>button{
+    background-color: var(--red);
+    color: var(--bg-w);
+}
+.formCreateProduct>form>input{
+    height: 30px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid var(--red);
+}
+.formCreateProduct>form>textarea{
+    height: 30px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid var(--red);
+}
+#image{
+    border: none !important;
+    padding: 5px;
+}
+@media screen and (max-width: 768px){
+    .formCreateProduct form{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        background-color: #EFF0F3;
+        height: auto;
+        padding: 50px;
+        border-radius: 10px;
+    }
+}
+

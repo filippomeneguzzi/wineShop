@@ -1,0 +1,33 @@
+// to do list
+
+
+
+filtri per prendere i prodotti dal db e vederli tutti        --FATTO--
+filtri per vedere solo bianco o rosso
+filtri di prezzo
+template unico da usare per ogni singolo prodotto   -- FATTO--
+aggiungi o rimuovi quantità
+modifica prodotto
+cart
+payment
+
+******
+img preview upload
+inserire codice a barre
+******
+
+utente: 
+reset password
+
+orders:
+voglio sapere numero vendite
+lista storico vendite
+voglio un totale del guadagno
+
+
+
+
+
+
+
+

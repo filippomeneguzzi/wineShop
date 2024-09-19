@@ -1,0 +1,11 @@
+{
+    "name": "vendor/ecommerce",
+    "description": "Wine e-commerce project with CRUD",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TuoNamespace\\": "src/"
+        }
+    }
+}

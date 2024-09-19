@@ -1,0 +1,112 @@
+nav{
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    color: var(--bg-w) !important;
+}
+.logoLink{
+    text-decoration: none;
+}
+.logo{
+    color: var(--bg-w);
+    font-size: 2.2rem;
+}
+.links_left{
+    display: none;
+}
+.links_left a{
+    margin: 0 10px;
+    border-radius: 6rem;
+    text-decoration: none;
+    color: var(--bg-w);
+}
+.links_left a:hover{
+    background-color: var(--red);
+    transition: 1.5s;
+}
+
+.link_container{
+    position: absolute;
+    height: 100vh;
+    right: -100%;
+    top: 0vh;
+    padding-top: 10rem;
+    width: 100%;
+    background-color: var(--red);
+    transition: .3s;
+    overflow: hidden;
+}
+.links_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 20px;
+}
+.links_right a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--bg-w);
+}
+
+#hamburger{
+    display: block;
+    cursor: pointer;
+    margin-left: 60px;
+    padding: 0 10px;
+    z-index: 1001;
+}
+.line{
+    display: block;
+    width: 25px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: var(--wh);
+    margin: 3px 0;
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+}
+.line2{
+    width: 17px;
+    position: relative;
+    left: 8px;
+}
+.showMenu{
+    right: 0;
+}
+
+/* animazione hamburger menu */
+#hamburger:nth-child(1){
+    top: 0;
+}
+#hamburger:nth-child(2){
+    top: 8px;
+}
+#hamburger:nth-child(3){
+    top: 19.5px;
+}
+
+#hamburger.open span:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+#hamburger.open span:nth-child(2){
+    opacity: 0;
+}
+#hamburger.open span:nth-child(3){
+    transform: translateY(-4.5px) rotate(-45deg);
+}
+
+.rightNav{
+    display: flex;
+}
+.cart svg{
+    height: 30px;
+    width: 30px;
+    fill: var(--bg-w);
+}

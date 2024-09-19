@@ -1,0 +1,102 @@
+/* navbar cart */
+#cart_count{
+    color: var(--bg-w);
+}
+.rightNav>.cart>a{
+    text-decoration: none;
+}
+
+
+/* cart page */
+.cartPage{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.cartPage>.marginNav{
+    color: var(--red);
+    font-size: 3rem;
+}
+.marginNav{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cartPage h4, .cartPage p{
+    color: var(--bg-w);
+}
+.ulCardProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+.card_productCartContainer{
+    height: auto;
+    width: 80%;
+    background-color: var(--red);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.cardCartProduct{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgCart{
+    height: 200px;
+    width: auto;
+    margin-right: 40px;
+}
+.title_priceCard{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.btnCardCart{
+    display: flex;
+    justify-content: space-between;
+}
+.formAdd{
+    display: flex;
+}
+.numberProduct{
+    width: 50px;
+}
+.formAdd select{
+    border-radius: 6px;
+    width: 80px;
+    padding: 10px;
+}
+.formRemove button{
+    border-radius: 50% !important;
+    width: 30px;
+}
+.btnCardCart>.formRemove>button{
+    background-color: transparent;
+    border: none;
+}
+.btnCardCart>.formRemove>button>svg{
+    fill: var(--bg-w);
+    height: 40px;
+    width: 40px;
+}
+.imgCartContainer{
+    width: 200px;
+}
+.cardShow{
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media screen and (max-width:768px){
+    .imgCartContainer{
+        width: 80px;
+    }
+    .imgCart{
+        height: 130px;
+    }
+}
+
