@@ -77,11 +77,39 @@ class Product{
         return $stmt->execute() ? 'success' : 'error';
 
     }
-    public function deleteProduct($product_id){
+/*     public function deleteProduct($product_id){
         $stmt = $this->conn->prepare("DELETE FROM products WHERE id=?");
         $stmt->bind_param("i", $product_id);
         return $stmt->execute() ? 'success' : 'error';
+    } */
+    public function deleteProduct($product_id) {
+        // Prendo il percorso dell'immagine del prodotto
+        $stmt = $this->conn->prepare("SELECT image FROM products WHERE id=?");
+        $stmt->bind_param("i", $product_id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        // Controllo se il prodotto esiste
+        if ($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
+            $image_path = $row['image'];
+            $relative_path = '../' . $image_path;
+
+            // Verifico se il file immagine esiste e lo elimino
+            if (file_exists($relative_path)) {
+                unlink($relative_path);  // Elimina il file dal server
+            }
+
+            // Elimino il prodotto dal database
+            $stmt = $this->conn->prepare("DELETE FROM products WHERE id=?");
+            $stmt->bind_param("i", $product_id);
+            return $stmt->execute() ? 'success' : 'error';
+        } else {
+            return 'product_not_found';
+        }
     }
+
+    
     
 
     //take all products

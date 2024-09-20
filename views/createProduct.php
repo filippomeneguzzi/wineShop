@@ -142,7 +142,7 @@ require_once '../components/nav.php';
                         <p><?php echo htmlspecialchars($product["quantity"]); ?>€</p>
                         <p><?php echo htmlspecialchars($product["price"]); ?>€</p>
 
-                        <?php echo "<a href='views/product_template.php?id=" . $product["id"] . "'>Scopri di più</a>" ?>
+                        <?php echo "<a href='product_template.php?id=" . $product["id"] . "'>Scopri di più</a>" ?>
                     </div>
                 </div>
             <?php endforeach; ?>
