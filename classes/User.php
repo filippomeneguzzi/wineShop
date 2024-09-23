@@ -153,9 +153,27 @@ class User{
         return false;
     }
 
-    //change password
-    public function changhePassword(){
-        
+    //get user
+    public function getUserData($id){
+        $stmt = $this->conn->prepare("SELECT username, email, first_name, last_name FROM users WHERE id=?");
+        $stmt->bind_param("i", $id);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        return $result->fetch_assoc();
+    }
+
+    //update account data
+    public function updateUser($id,$username,$email,$first_name,$last_name,$password = null){
+        if(!empty($password)){
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+            $stmt = $this->conn->prepare("UPDATE users SET username = ?, email = ?, first_name = ?, last_name = ?, password = ? WHERE id = ? ");
+            $stmt->bind_param("sssssi", $username, $email, $first_name, $last_name, $hashed_password, $id);
+            return $stmt->execute() ? 'success' : 'error';
+        }else{
+            $stmt = $this->conn->prepare("UPDATE users SET username = ?, email = ?, first_name = ?, last_name = ? WHERE id = ? ");
+            $stmt->bind_param("ssssi", $username, $email, $first_name, $last_name, $id);
+            return $stmt->execute() ? 'success' : 'error';
+        }
     }
 
 }

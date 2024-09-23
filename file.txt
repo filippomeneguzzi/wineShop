@@ -1,33 +1,21 @@
-// to do list
+Prodotti 
 
+Valpolicella Classico DOC Superiore 2019
+Il Valpolicella Classico DOC Superiore è un tipo di vino italiano che proviene dalla regione della Valpolicella nel nord-est dell’Italia. Questo vino è ottenuto principalmente da uve Corvina, Rondinella e Molinara, coltivate sulle colline che circondano il Lago di Garda.
 
+Le uve del Valpolicella Classico DOC Superiore vengono raccolte a mano e sottoposte a un rigoroso processo di selezione per garantire che vengano utilizzate solo uve della migliore qualità. Il vino viene poi fermentato in vasche di acciaio inox prima di essere affinato in botti di rovere per un minimo di 12 mesi.
 
-filtri per prendere i prodotti dal db e vederli tutti        --FATTO--
-filtri per vedere solo bianco o rosso
-filtri di prezzo
-template unico da usare per ogni singolo prodotto   -- FATTO--
-aggiungi o rimuovi quantità
-modifica prodotto
-cart
-payment
-
-******
-img preview upload
-inserire codice a barre
-******
-
-utente: 
-reset password
-
-orders:
-voglio sapere numero vendite
-lista storico vendite
-voglio un totale del guadagno
+E’ noto per il suo colore rubino intenso e gli aromi di ciliegie mature, more e spezie. Al palato è corposo con un buon equilibrio tra acidità e tannini, e un finale lungo e persistente. Questo vino si abbina bene con una varietà di cibi, tra cui primi piatti, carni alla griglia e formaggi stagionati. È un vino versatile che può essere gustato da solo o come accompagnamento a un pasto.
 
 
 
 
 
+Champagne Brut “Moët Impérial” - Moët & Chandon
+
+Una vera e propria icona, lImpérial nasce infatti nel 1869 e da secoli incarna lo stile unico di Moët & Chandon. Uno Champagne che si distingue per la sua luminosa traccia fruttata, per la sua bocca fresca e seducente, per la sua elegante maturità. Lo Champagne per eccellenza, di gran lunga il più diffuso al mondo.
 
 
 
+Prosecco DOC Treviso Brut
+Il Prosecco DOC Treviso è un vino spumante di qualità prodotto nelle colline di Treviso, situate nella regione del Veneto, in Italia. Conosciuto per la sua freschezza e vivacità, questo Prosecco è caratterizzato da un colore giallo paglierino brillante e un perlage fine e persistente. Al naso, sprigiona aromi fruttati di mela verde, pera, e delicate note floreali di acacia. Al palato, si presenta fresco e leggero, con una piacevole acidità che lo rende estremamente versatile e facile da bere. Il Prosecco DOC Treviso è perfetto come aperitivo o in abbinamento a piatti leggeri come insalate, frutti di mare e antipasti. Grazie al suo gusto armonioso e vivace, è un vino ideale per celebrare momenti conviviali in ogni occasione.

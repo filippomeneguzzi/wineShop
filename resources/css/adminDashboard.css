@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    height: 100vh;
+    min-height: 100vh;
     padding: 30px;
     background-color: #FBFBFB;
 }
@@ -35,4 +35,36 @@
 
 .data_view{
     padding: 0 20px;
+}
+
+.changeData{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #FBFBFB;
+}
+.updateSectionInput{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.changeData button{
+    margin-top: 10px;
+
+}
+
+/* meadia query */
+@media screen and (min-width:769px){
+    
+    .changeData form{
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
 }
