@@ -55,7 +55,7 @@ This project is an e-commerce platform developed in PHP with MySQL, designed to 
   - Database: MySQL
   - Frontend: HTML, CSS, JavaScript
 
-### Architecture
+### Architecture
 The project is based on object-oriented programming, utilizing classes and methods for better code organization and to facilitate system maintenance and extensibility.
 
 ### Future Goals:
