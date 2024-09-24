@@ -3,7 +3,7 @@
 ### Panoramica
 Questo progetto è una piattaforma e-commerce sviluppata in PHP con MySQL, progettata per consentire agli utenti di navigare, aggiungere prodotti al carrello e gestire i propri ordini. Gli utenti amministratori possono gestire il catalogo prodotti (creazione e eliminazione), mentre tutti gli utenti registrati possono aggiornare i propri dati personali. Il carrello è gestito tramite sessioni PHP per garantire una navigazione fluida e dinamica.
 
-### Per gli Utenti:
+### Per gli Utenti:
   - Navigazione Prodotti: Visualizza i dettagli dei prodotti, inclusi nome, descrizione, prezzo e categoria.
   - Gestione Carrello:
       - Aggiungi prodotti al carrello.
@@ -29,7 +29,7 @@ Il progetto è basato sulla programmazione orientata agli oggetti, utilizzando c
 ### Obiettivi Futuri:
   - Implementazione di metodi di pagamento online.
   - Possibilità di modificare i prodotti da Admin
-  - Specie di fattura in PDF dopo la simulazione di un pagamento online
+  - Esempio fattura in PDF dopo la simulazione di un pagamento online
   - Miglioramento dell'esperienza utente (UX) con AJAX o Fetch API.
 
 ### Overview
