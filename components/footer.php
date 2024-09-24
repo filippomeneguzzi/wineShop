@@ -3,7 +3,7 @@
 
         <h3>Wine Shop</h3>
 
-        <h2>Filippo Meneguzzi <?php  echo date("Y");?></h2>
+        <h3>Copyright <?php  echo date("Y");?> Filippo Meneguzzi</h3>
         
     </footer>
     

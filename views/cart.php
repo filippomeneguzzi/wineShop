@@ -78,7 +78,7 @@ if($user_id){
                 <?php endforeach; ?>
             </ul>
         <?php else: ?>
-            <p>Carrello vuoto</p>
+            <p class="noProduct">Carrello vuoto</p>
         <?php endif; ?>
     </div>
     

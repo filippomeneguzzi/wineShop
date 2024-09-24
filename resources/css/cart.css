@@ -90,6 +90,10 @@
     flex-wrap: wrap;
     gap: 40px;
 }
+.noProduct{
+    text-align: center;
+    color: black !important;
+}
 
 @media screen and (max-width:768px){
     .imgCartContainer{

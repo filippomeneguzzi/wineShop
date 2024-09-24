@@ -6,3 +6,9 @@ footer{
     justify-content: space-around;
     color: var(--bg-w);
 }
+
+@media screen and (max-width:768px) {
+    footer{
+        flex-direction: column;
+    }
+}
